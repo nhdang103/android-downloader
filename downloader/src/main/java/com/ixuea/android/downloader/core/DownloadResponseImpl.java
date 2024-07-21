@@ -86,7 +86,7 @@ public class DownloadResponseImpl implements DownloadResponse {
         message.obj = downloadInfo;
         message.sendToTarget();
 
-        Log.d(TAG, "progress:" + downloadInfo.getProgress() + ",size:" + downloadInfo.getSize());
+//        Log.d(TAG, "progress:" + downloadInfo.getProgress() + ",size:" + downloadInfo.getSize());
     }
 
     private void createOrUpdateDownloadInfo(DownloadInfo downloadInfo) {
